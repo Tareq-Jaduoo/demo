@@ -8,21 +8,23 @@ while (Planttype !== 'Flowers' && Planttype !== 'Cactus') {
 var plant = '';
 
 if (Planttype === 'Cactus') {
-    plant = '<img src="Cactus.jpg"/>';
+    plant = '<img src="/Cactus.jpg">';
 } else if (Planttype === 'Flowers ') {
-    plant = '<img src="Flowers.jpg"/>';
+    plant = '<img src="/Flowers.jpg">';
     }
 
-    var yasPlant = prompt('enter Plant number ???  ');
+    var Plantnumber = prompt('enter Plant number ???  ');
 
 var plants ='';
-for (var i = 0; i< yasPlant; i++) {
-    plant =plant +yasPlant;
+
+for (var i = 0; i< Plantnumber; i++) {
+    plant =plant +Plantnumber;
 }
 
-    document.write(Planttype)
+    document.write(Planttype);
 
       
+    
     alert('Lets make life prosperous')
     var Plantnumber= prompt('enter Plant number ?  ');
     
@@ -44,4 +46,4 @@ for (var i = 0; i< yasPlant; i++) {
         Discount = 'Welcome';
     }
     document.write("Enjoy your"+Discount ) 
-    s
+    
