@@ -1,10 +1,9 @@
-
-var Planttype = prompt('what do you want Flowers or Cactus');
+function plant2(){
+    var Planttype = prompt('what do you want Flowers or Cactus');
 
 while (Planttype !== 'Flowers' && Planttype !== 'Cactus') {
  Planttype = prompt('what do you want Flowers or Cactus');
 }
-
 var plant = '';
 
 if (Planttype === 'Cactus') {
@@ -23,11 +22,15 @@ for (var i = 0; i< Plantnumber; i++) {
 
     document.write(Planttype);
 
+}
+plant2();
+
       
     
-    alert('Lets make life prosperous')
+  function plant3(){
+   alert('Lets make life prosperous')
     var Plantnumber= prompt('enter Plant number ?  ');
-    
+  
     var Plantnumber ;
     for (Plantnumber = 0; Planttype > 0; Plantnumber++) {
     }
@@ -46,4 +49,5 @@ for (var i = 0; i< Plantnumber; i++) {
         Discount = 'Welcome';
     }
     document.write("Enjoy your"+Discount ) 
-    
+}
+plant3();
